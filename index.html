@@ -1,437 +1,384 @@
+
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <link
-      rel="stylesheet"
-      href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css"
-      integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg=="
-      crossorigin="anonymous"
-      referrerpolicy="no-referrer"
-    />
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Raleway:wght@800&family=Roboto:wght@400;500;700;900&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="./css/style.css" />
-    <title>WebStudio</title>
+<head>
+    <meta charset="UTF-8">
+    <link rel="icon" type="image/svg+xml" href="/yacht-adventures-team-project/favicon.svg">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Yacht Adventures</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
+    <link href="https://fonts.googleapis.com/css2?family=DM+Sans:ital,wght@0,400;0,500;0,700;1,500&amp;display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/modern-normalize/2.0.0/modern-normalize.min.css" integrity="sha512-4xo8blKMVCiXpTaLzQSLSw3KFOVPWhm/TRtuPVc4WG6kUgjH6J03IBuG7JZPkcWMxJ5huwaBpOpnwYElP/m6wg==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    
+    <script type="module" crossorigin="" src="/yacht-adventures-team-project/assets/index-71f1a737.js"></script>
+    <link rel="stylesheet" href="/yacht-adventures-team-project/assets/index-6ce0c247.css">
   </head>
   <body>
-    <header class="header-box">
-      <div class="container header">
-        <nav class="header-navigation">
-          <a href="./index.html" class="header-logo link"
-            >Web<span class="header-studio">Studio</span></a
-          >
-          <ul class="nav list">
-            <li>
-              <a href="./index.html" class="nav-link link active">Studio</a>
-            </li>
-            <li>
-              <a href="./portfolio.html" class="nav-link link">Portfolio</a>
-            </li>
-            <li><a href="" class="nav-link link">Contacts</a></li>
-          </ul>
-        </nav>
-        <address class="header-address">
-          <ul class="header-address list">
-            <li>
-              <a href="mailto:info@devstudio.com" class="link address-link"
-                >info@devstudio.com</a
-              >
-            </li>
-            <li>
-              <a href="tel:+110001111111" class="link address-link"
-                >+11 (000) 111-11-11</a
-              >
-            </li>
-          </ul>
-        </address>
-      </div>
-    </header>
+<body>
+    <header class="header">
+  <div class="container header-container">
+    <nav class="header-nav">
+      <a class="header-logo" href="">
+        <img width="16px" height="18px" src="./images/logo.svg.svg">Yacht Adventures
+      </a>
+      <ul class="header-nav-list list">
+        <li>
+          <a class="header-menu-link" href="">About</a>
+        </li>
+        <li>
+          <a class="header-menu-link" href=""> Yachts </a>
+        </li>
+        <li>
+          <a class="header-menu-link" href="">Reviews</a>
+        </li>
+      </ul>
+      <button class="menu-toggle mobile-menu-toggle-icon js-open-menu" aria-expanded="false" aria-controls="mobile-menu">
+        <svg class="mobile-menu-icon" height="24" width="24">
+          <use href="/yacht-adventures-team-project/assets/icons-ea6a623b.svg#icon-menu"></use>
+        </svg>
+      </button>
+    </nav>
+    <div class="separator"></div>
+  </div>
+</header>
+
+<div class="menu-container js-menu-container" id="mobile-menu">
+  <div class="container header-container">
+    <nav class="header-nav">
+      <a class="header-logo" href="">
+        <img width="16px" height="18px" src="./images/logo.svg.svg">Yacht Adventures
+      </a>
+      <button class="menu-toggle js-close-menu">
+        <svg fill="currentColor" viewBox="0 0 20 20" width="24" height="24">
+          <use href="/yacht-adventures-team-project/assets/icons-ea6a623b.svg#icon-close-mark"></use>
+        </svg>
+      </button>
+    </nav>
+    <div class="separator"></div>
+  </div>
+
+  <ul class="mobile-menu">
+    <li><a href="" class="link">About</a></li>
+    <li><a href="" class="link">Yachts</a></li>
+    <li><a href="" class="link">Reviews</a></li>
+  </ul>
+</div>
+
+<script defer="" src="https://cdnjs.cloudflare.com/ajax/libs/body-scroll-lock/3.1.5/bodyScrollLock.min.js" integrity="sha512-HowizSDbQl7UPEAsPnvJHlQsnBmU2YMrv7KkTBulTLEGz9chfBoWYyZJL+MUO6p/yBuuMO/8jI7O29YRZ2uBlA==" crossorigin="anonymous"></script>
+<script defer="" src="js/mobile-menu.js"></script>
+
     <main>
-      <!--section efective-->
-      <section class="section-efective">
-        <div class="container">
-          <h1 class="title">Effective Solutions for Your Business</h1>
-          <button type="button" class="button">Order Service</button>
-        </div>
-      </section>
-      <!--section plus-->
-      <section class="section-plus">
-        <div class="container">
-          <h2 class="visually-hidden">Our plus</h2>
-          <ul class="list or-plus">
-            <li class="plus-li">
-              <div class="metodic">
-                <svg class="metodic-icons" width="64" height="64">
-                  <use href="./images/icons.svg#icon-antenna"></use>
-                </svg>
-              </div>
-
-              <h3 class="plus-title">Strategy</h3>
-              <p class="plus-text">
-                Our goal is to identify the business problem to walk away with
-                the perfect and creative solution.
-              </p>
-            </li>
-            <li class="plus-li">
-              <div class="metodic">
-                <svg class="metodic-icons" width="64" height="64">
-                  <use href="./images/icons.svg#icon-clock"></use>
-                </svg>
-              </div>
-              <h3 class="plus-title">Punctuality</h3>
-              <p class="plus-text">
-                Bring the key message to the brand's audience for the best price
-                within the shortest possible time.
-              </p>
-            </li>
-            <li class="plus-li">
-              <div class="metodic">
-                <svg class="metodic-icons" width="64" height="64">
-                  <use href="./images/icons.svg#icon-diagram"></use>
-                </svg>
-              </div>
-              <h3 class="plus-title">Diligence</h3>
-              <p class="plus-text">
-                Research and confirm brands that present the strongest digital
-                growth opportunities and minimize risk.
-              </p>
-            </li>
-            <li class="plus-li">
-              <div class="metodic">
-                <svg class="metodic-icons" width="64" height="64">
-                  <use href="./images/icons.svg#icon-astronaut"></use>
-                </svg>
-              </div>
-              <h3 class="plus-title">Technologies</h3>
-              <p class="plus-text">
-                Design practice focused on digital experiences. We bring forth a
-                deep passion for problem-solving.
-              </p>
-            </li>
-          </ul>
-        </div>
-      </section>
-      <!-- section doing-->
-      <section class="section-doing">
-        <div class="container">
-          <h2 class="section-title">What are we doing</h2>
-          <ul class="list box">
-            <li class="doing">
-              <img src="./images/img1.jpg" alt="comp" width="360" />
-            </li>
-            <li class="doing">
-              <img src="./images/img2.jpg" alt="telephone" width="360" />
-            </li>
-            <li class="doing">
-              <img src="./images/img3.jpg" alt="comptel" width="360" />
-            </li>
-          </ul>
-        </div>
-      </section>
-      <!--section team-->
-      <section class="section-team">
-        <div class="container">
-          <h2 class="section-title">Our Team</h2>
-          <ul class="list team-box">
-            <li class="team-li">
-              <img
-                src="./images/img4.jpg"
-                alt="Mark Guerrero"
-                class="team-img"
-                width="264"
-              />
-              <div class="block-team">
-                <h3 class="team-h">Mark Guerrero</h3>
-                <p class="team-text">Product Designer</p>
-                <ul class="team-social-list list">
-                  <li class="team-social-item">
-                    <a href="" class="team-social-link">
-                      <svg class="team-social-icon" width="16" height="16">
-                        <use
-                          href="./images/symbol-defs.svg#icon-instagram"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="team-social-item">
-                    <a href="" class="team-social-link">
-                      <svg class="team-social-icon" width="16" height="16">
-                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="team-social-item">
-                    <a href="" class="team-social-link">
-                      <svg class="team-social-icon" width="16" height="16">
-                        <use
-                          href="./images/symbol-defs.svg#icon-facebook"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="team-social-item">
-                    <a href="" class="team-social-link">
-                      <svg class="team-social-icon" width="16" height="16">
-                        <use
-                          href="./images/symbol-defs.svg#icon-linkedin"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="team-li">
-              <img
-                src="./images/img5.jpg"
-                alt="Tom Ford"
-                class="team-img"
-                width="264"
-              />
-              <div class="block-team">
-                <h3 class="team-h">Tom Ford</h3>
-                <p class="team-text">Frontend Developer</p>
-                <ul class="team-social-list list">
-                  <li class="team-social-item">
-                    <a href="" class="team-social-link">
-                      <svg class="team-social-icon" width="16" height="16">
-                        <use
-                          href="./images/symbol-defs.svg#icon-instagram"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="team-social-item">
-                    <a href="" class="team-social-link">
-                      <svg class="team-social-icon" width="16" height="16">
-                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="team-social-item">
-                    <a href="" class="team-social-link">
-                      <svg class="team-social-icon" width="16" height="16">
-                        <use
-                          href="./images/symbol-defs.svg#icon-facebook"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="team-social-item">
-                    <a href="" class="team-social-link">
-                      <svg class="team-social-icon" width="16" height="16">
-                        <use
-                          href="./images/symbol-defs.svg#icon-linkedin"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="team-li">
-              <img
-                src="./images/img7.jpg"
-                alt="Camila Garcia"
-                class="team-img"
-                width="264"
-              />
-              <div class="block-team">
-                <h3 class="team-h">Camila Garcia</h3>
-                <p class="team-text">Marketing</p>
-                <ul class="team-social-list list">
-                  <li class="team-social-item">
-                    <a href="" class="team-social-link">
-                      <svg class="team-social-icon" width="16" height="16">
-                        <use
-                          href="./images/symbol-defs.svg#icon-instagram"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="team-social-item">
-                    <a href="" class="team-social-link">
-                      <svg class="team-social-icon" width="16" height="16">
-                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="team-social-item">
-                    <a href="" class="team-social-link">
-                      <svg class="team-social-icon" width="16" height="16">
-                        <use
-                          href="./images/symbol-defs.svg#icon-facebook"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="team-social-item">
-                    <a href="" class="team-social-link">
-                      <svg class="team-social-icon" width="16" height="16">
-                        <use
-                          href="./images/symbol-defs.svg#icon-linkedin"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-            <li class="team-li">
-              <img
-                src="./images/img6.jpg"
-                alt="Daniel Wilson"
-                class="team-img"
-                width="264"
-              />
-              <div class="block-team">
-                <h3 class="team-h">Daniel Wilson</h3>
-                <p class="team-text">UI Designer</p>
-                <ul class="team-social-list list">
-                  <li class="team-social-item">
-                    <a href="" class="team-social-link">
-                      <svg class="team-social-icon" width="16" height="16">
-                        <use
-                          href="./images/symbol-defs.svg#icon-instagram"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="team-social-item">
-                    <a href="" class="team-social-link">
-                      <svg class="team-social-icon" width="16" height="16">
-                        <use href="./images/symbol-defs.svg#icon-twitter"></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="team-social-item">
-                    <a href="" class="team-social-link">
-                      <svg class="team-social-icon" width="16" height="16">
-                        <use
-                          href="./images/symbol-defs.svg#icon-facebook"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                  <li class="team-social-item">
-                    <a href="" class="team-social-link">
-                      <svg class="team-social-icon" width="16" height="16">
-                        <use
-                          href="./images/symbol-defs.svg#icon-linkedin"
-                        ></use>
-                      </svg>
-                    </a>
-                  </li>
-                </ul>
-              </div>
-            </li>
-          </ul>
-        </div>
-      </section>
-
-      <!-- customers -->
-      <section class="customers">
-        <div class="container">
-          <h2 class="section-title">Customers</h2>
-          <ul class="customers-list list">
-            <li class="customers-item">
-              <a href="" class="customers-link">
-                <svg class="customers-icon" width="104" height="56">
-                  <use href="./images/symbol-defs.svg#icon-Logo"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="customers-item">
-              <a href="" class="customers-link">
-                <svg class="customers-icon" width="104" height="56">
-                  <use href="./images/symbol-defs.svg#icon-Logo1"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="customers-item">
-              <a href="" class="customers-link">
-                <svg class="customers-icon" width="104" height="56">
-                  <use href="./images/symbol-defs.svg#icon-Logo2"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="customers-item">
-              <a href="" class="customers-link">
-                <svg class="customers-icon" width="104" height="56">
-                  <use href="./images/symbol-defs.svg#icon-Logo3"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="customers-item">
-              <a href="" class="customers-link">
-                <svg class="customers-icon" width="104" height="56">
-                  <use href="./images/symbol-defs.svg#icon-Logo4"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="customers-item">
-              <a href="" class="customers-link">
-                <svg class="customers-icon" width="104" height="56">
-                  <use href="./images/symbol-defs.svg#icon-Logo5"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
-        </div>
-      </section>
-    </main>
-    <footer class="footer">
+      
+      
       <div class="container">
-        <div class="=footer-media">
-          <a href="./index.html" class="footer-logo link"
-            >Web<span class="footer-studio">Studio</span></a
-          >
-          <p class="footer-text">
-            Increase the flow of customers and sales for your business with
-            digital marketing & growth solutions.
-          </p>
+  <section class="yachts-block section">
+    <div class="yachts-block__bg-vector"></div>
+
+    <!-- <div class="yachts-block__gradient-big"></div> -->
+    <!-- <div class="yachts-block__gradient-small"></div> -->
+
+    <div class="yachts-block__container">
+      <h2 class="yachts-block__title">
+        Choose your dream yacht and sail away into the sunset
+      </h2>
+      <a class="yachts-block__link" href="#rent-form">Yacht rental</a>
+    </div>
+
+    <div class="yachts-block__card-list-buttons">
+      <button class="yachts-block__button-prev-desc y-b__buttons-desc y-b__buttons" type="button">
+        <svg class="yachts-block__button-prev-icon" width="18" height="8">
+          <use href="/yacht-adventures-team-project/assets/icons-ea6a623b.svg#icon-arrow-left"></use>
+        </svg>
+      </button>
+
+      <ul class="yachts-block__card-list">
+        <li class="yachts-block__card-set">
+          <div class="yachts-block__image-wrap">
+            <picture class="yachts-block__image">
+              <source media="(min-width: 768px)" srcset="/images/yachts-block-yacht1-desc@2x-6a2d9a6c.webp, /images/yachts-block-yacht1-mob-42f79e97">
+              <img class="block__img" srcset="/images/yachts-block-yacht1-mob@2x-6a2d9a6c.webp , /images/yachts-block-yacht1-mob" alt="Yacht Arrow">
+            </picture>
+          </div>
+          <div class="yachts-block__yacht-info">
+            <div class="yachts-block__wrap">
+              <h3 class="yachts-block__yacht-name">Arrow</h3>
+              <p class="yachts-block__yacht-type">LUXURY YAHTS</p>
+            </div>
+
+            <div class="yachts-block__yacht-desc-lists">
+              <ul class="yachts-block__yacht-desc-list-one">
+                <li class="yachts-block__item">LENGTH</li>
+                <li class="yachts-block__item">BUILDER</li>
+                <li class="yachts-block__item">BUILT</li>
+                <li class="yachts-block__item">GUESTS</li>
+                <li class="yachts-block__item">PRICE</li>
+              </ul>
+
+              <ul class="yachts-block__yacht-desc-list-two">
+                <li class="yachts-block__item">48m(155ft)</li>
+                <li class="yachts-block__item">Admiral</li>
+                <li class="yachts-block__item">2021</li>
+                <li class="yachts-block__item">11 in 5 cabins</li>
+                <li class="yachts-block__item">€33,500,000</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="yachts-block__card-set">
+          <div class="yachts-block__image-wrap">
+            <picture class="yachts-block__image">
+              <source media="(min-width: 768px)" srcset="/yacht-adventures-team-project/assets/yachts-block-yacht2-desc-4b939c8d.webp 1x, /yacht-adventures-team-project/assets/yachts-block-yacht2-desc@2x-b6e958d8.webp 2x">
+              <img srcset="
+                  ./img/yahts-block/yachts-block-yacht2-mob.webp    1x,
+                  ./img/yahts-block/yachts-block-yacht2-mob@2x.webp 2x
+                " alt="Yacht BENETTI OASIS 40M BO122">
+            </picture>
+          </div>
+
+          <div class="yachts-block__yacht-info">
+            <div class="yachts-block__wrap">
+              <h3 class="yachts-block__yacht-name">BENETTI OASIS 40M BO122</h3>
+              <p class="yachts-block__yacht-type">LUXURY YAHTS</p>
+            </div>
+
+            <div class="yachts-block__yacht-desc-lists">
+              <ul class="yachts-block__yacht-desc-list-one">
+                <li class="yachts-block__item">LENGTH</li>
+                <li class="yachts-block__item">BUILDER</li>
+                <li class="yachts-block__item">BUILT</li>
+                <li class="yachts-block__item">GUESTS</li>
+                <li class="yachts-block__item">PRICE</li>
+              </ul>
+
+              <ul class="yachts-block__yacht-desc-list-two">
+                <li class="yachts-block__item">41m (133ft)</li>
+                <li class="yachts-block__item">Benetti</li>
+                <li class="yachts-block__item">2025</li>
+                <li class="yachts-block__item">10 in 5 cabins</li>
+                <li class="yachts-block__item">€23,210,000</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+        <li class="yachts-block__card-set">
+          <div class="yachts-block__image-wrap">
+            <picture class="yachts-block__image">
+              <source media="(min-width: 768px)" srcset="/yacht-adventures-team-project/assets/yachts-block-yacht3-desc-99244548.webp 1x, /yacht-adventures-team-project/assets/yachts-block-yacht3-desc@2x-b8645101.webp 2x">
+              <img srcset="
+                  ./img/yahts-block/yachts-block-yacht3-mob.webp    1x,
+                  ./img/yahts-block/yachts-block-yacht3-mob@2x.webp 2x
+                " alt="Yacht BELLE ANNA">
+            </picture>
+          </div>
+
+          <div class="yachts-block__yacht-info">
+            <div class="yachts-block__wrap">
+              <h3 class="yachts-block__yacht-name">BELLE ANNA</h3>
+              <p class="yachts-block__yacht-type">LUXURY YAHTS</p>
+            </div>
+
+            <div class="yachts-block__yacht-desc-lists">
+              <ul class="yachts-block__yacht-desc-list-one">
+                <li class="yachts-block__item">LENGTH</li>
+                <li class="yachts-block__item">BUILDER</li>
+                <li class="yachts-block__item">BUILT</li>
+                <li class="yachts-block__item">GUESTS</li>
+                <li class="yachts-block__item">PRICE</li>
+              </ul>
+
+              <ul class="yachts-block__yacht-desc-list-two">
+                <li class="yachts-block__item">50m(155ft)</li>
+                <li class="yachts-block__item">ISA</li>
+                <li class="yachts-block__item">2012</li>
+                <li class="yachts-block__item">12 in 6 cabins</li>
+                <li class="yachts-block__item">€21,000,000</li>
+              </ul>
+            </div>
+          </div>
+        </li>
+      </ul>
+
+      <button class="yachts-block__button-next-desc y-b__buttons-desc y-b__buttons" type="button">
+        <svg class="yachts-block__button-next-icon" width="18" height="8">
+          <use href="/yacht-adventures-team-project/assets/icons-ea6a623b.svg#icon-arrow-right"></use>
+        </svg>
+      </button>
+    </div>
+
+    <div class="yachts-block__buttons-list-wrap">
+      <ul class="yachts-block__buttons-list">
+        <li class="yachts-block__button-item">
+          <button class="y-b__buttons-mob y-b__buttons" type="button">
+            <svg class="yachts-block__button-prev-icon" width="18" height="8">
+              <use href="/yacht-adventures-team-project/assets/icons-ea6a623b.svg#icon-arrow-left"></use>
+            </svg>
+          </button>
+        </li>
+        <li class="yachts-block__button-item">
+          <button class="y-b__buttons-mob y-b__buttons" type="button">
+            <svg class="yachts-block__button-next-icon" width="18" height="8">
+              <use href="/yacht-adventures-team-project/assets/icons-ea6a623b.svg#icon-arrow-right"></use>
+            </svg>
+          </button>
+        </li>
+      </ul>
+    </div>
+  </section>
+</div>
+
+      <div class="container">
+  <section class="section services-section">
+    <ul class="services-list">
+      <li class="services-item">
+        <img src="/yacht-adventures-team-project/assets/img-diving-ba1b0de8.png" alt="diving">
+        <button type="button" class="services-btn">Diving</button>
+      </li>
+      <li class="services-item">
+        <img src="/yacht-adventures-team-project/assets/img-fishing-39edffa1.png" alt="fishing">
+        <button type="button" class="services-btn">Fishing</button>
+      </li>
+      <li class="services-item">
+        <img src="/yacht-adventures-team-project/assets/img-sunbathing-198f5f34.png" alt="sunbathing">
+        <button type="button" class="services-btn">Sunbathing</button>
+      </li>
+    </ul>
+  </section>
+</div>
+
+      <section class="rent-section">
+    <div class="rent-container container">
+        <div class="title-wrap">
+            <h2 class="rent-title">Rent a yacht now</h2>
+            <img class="rent-img" srcset="/yacht-adventures-team-project/assets/rent-yaht@1x-313e6180.png 1x, /yacht-adventures-team-project/assets/rent-yaht@2x-377c14b2.png 2x" src="/yacht-adventures-team-project/assets/rent-yaht@1x-313e6180.png" alt="A yacht with white sails is sailing in the middle of the ocean" width="259" height="187">
         </div>
-        <div class="container">
-          <h3 class="social-footer">Social media</h3>
-          <ul class="footer-social-list list">
-            <li class="footer-social-item">
-              <a href="" class="footer-social-link">
-                <svg class="footer-social-icons" weight="24" height="24">
-                  <use href="./images/symbol-defs.svg#icon-instagram"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-social-item">
-              <a href="" class="footer-social-link">
-                <svg class="footer-social-icons" weight="24" height="24">
-                  <use href="./images/symbol-defs.svg#icon-twitter"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-social-item">
-              <a href="" class="footer-social-link">
-                <svg class="footer-social-icons" weight="24" height="24">
-                  <use href="./images/symbol-defs.svg#icon-facebook"></use>
-                </svg>
-              </a>
-            </li>
-            <li class="footer-social-item">
-              <a href="" class="footer-social-link">
-                <svg class="footer-social-icons" weight="24" height="24">
-                  <use href="./images/symbol-defs.svg#icon-linkedin"></use>
-                </svg>
-              </a>
-            </li>
-          </ul>
+        <div class="form-wrap">
+            <form name="rent_form" autocomplete="on" id="rent-form" class="rent-form">
+                <label class="label-field">
+                    Full Name
+                <input type="text" name="username" id="username" pattern="[A-Za-z]{3,}" title="The name must contain at least three Latin letters" required="" class="rent-input">
+                </label>
+                <label class="label-field">
+                    Email
+                <input type="email" name="email" id="email" pattern="([A-z0-9_.-]{1,})@([A-z0-9_.-]{1,}).([A-z]{2,8})" title="Must contain @ and ." required="" class="rent-input">
+                </label>
+                <label class="label-field">
+                    Phone number
+                <input type="tel" name="phone" id="phone" pattern="[0-9]{10}" title="Must contain no more than ten numbers" required="" class="rent-input">
+                </label>
+                <label class="label-field">
+                    Comment
+                <textarea name="comment" rows="4" class="rent-area"></textarea>
+                </label>
+                <button type="submit" class="send-btn" data-modal-open="">Send 
+                    <svg class="arrow-icon" width="18" height="9">
+                      <use href="/yacht-adventures-team-project/assets/icons-ea6a623b.svg#icon-arrow-right"></use>
+                    </svg>
+                </button>
+            </form>
         </div>
-      </div>
-    </footer>
-  </body>
+    </div>
+</section>
+<!-- Modal window -->
+<div class="backdrop is-hidden" data-modal="">
+    <div class="modal">
+        <div class="modal-ellipse"></div>
+        <button type="button" class="modal-btn" data-modal-close="">
+          <svg class="modal-icon" width="20" height="20">
+            <use href="/yacht-adventures-team-project/assets/icons-ea6a623b.svg#icon-close-mark"></use>
+          </svg>
+        </button>
+        <img class="modal-img" srcset="/yacht-adventures-team-project/assets/modal-yaht@1x-3885ce58.png 1x, /yacht-adventures-team-project/assets/modal-yaht@2x-eebf028c.png 2x" src="/yacht-adventures-team-project/assets/modal-yaht@1x-3885ce58.png" alt="White two-story yacht" width="287" height="149">
+        <h3 class="modal-title">Thank you</h3>
+        <p class="modal-text">Thank you for choosing Yacht Adventures, your booking details have been received and our team will be in touch shortly to confirm your reservation and provide any additional information or assistance you may need.</p>
+    </div>
+</div>
+
+<script src="./js/modal-rent.js"></script>
+      
+    </main>
+     <!-- Footer -->
+
+<footer class="footer">
+    <div class="footer-container container">
+      <!-- <div class="vector"></div> -->
+      <div class="footer-logo">
+        <a class="link-footer-logo" href="./index.html">
+            <img src="/yacht-adventures-team-project/assets/logo-ff9e87aa.svg" alt="yacht adventures logo" width="16" height="18">yacht Adventures
+        </a>
+    </div>
+      <div class="footer-nav">
+          <nav class="footer-nav">
+              <ul class="footer-nav-list">
+                  <li>
+                      <a class="footer-nav-link" href="#">About</a>
+                  </li>
+                  <li>
+                      <a class="footer-nav-link" href="#">Yachts</a>
+                  </li>
+                  <li>
+                      <a class="footer-nav-link" href="#">Reviews</a>
+                  </li>
+              </ul>
+          </nav>
+     
+        <p class="footer-title">We in social</p>
+        <ul class="footer-network-list">
+            <li>
+                <a class="footer-network-icon" href="#" target="_blank">
+                  <svg class="footer-icon" width="17.6" height="17.6">
+                    <use href="/yacht-adventures-team-project/assets/icons-ea6a623b.svg#icon-facebook"></use>
+                  </svg>
+                </a>
+            </li>
+            <li>
+                <a class="footer-network-icon" href="#" target="_blank">
+                  <svg class="footer-icon" width="17.6" height="17.6">
+                    <use href="/yacht-adventures-team-project/assets/icons-ea6a623b.svg#icon-instagram"></use>
+                  </svg>
+                </a>
+            </li>
+            <li>
+                <a class="footer-network-icon" href="#" target="_blank">
+                    <svg class="footer-icon" width="17.6" height="17.6">
+                        <use href="/yacht-adventures-team-project/assets/icons-ea6a623b.svg#icon-youtube"></use>
+                      </svg>
+                </a>
+            </li>
+        </ul>
+     
+    </div>
+    <div class="footer-information">
+      <p class="footer-info">2023. Yacht Adventures<a class="footer-info" href="#">Privacy Police</a></p>
+    </div>
+  </div></footer>
+
+</body>
 </html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
